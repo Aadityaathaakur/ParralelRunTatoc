@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Gmail Suite]" parallel="tests">
+  <test name="BasicTatocTest(failed)" parallel="tests">
+    <classes>
+      <class name="AllTestTatoc">
+        <methods>
+          <include name="Test004_check_For_Green_Box"/>
+          <include name="Test011_Cookie_Handling"/>
+          <include name="Test005_Frame_Dungeon_Test"/>
+          <include name="Test007_Drag_And_Drop"/>
+          <include name="Test002_BasicBlock"/>
+          <include name="Test006_Frame_Dungeon_Pass"/>
+          <include name="closebrowser"/>
+          <include name="Test009_Launch_popUp_Menu"/>
+          <include name="Test010_proceed_without_adding_cookie"/>
+          <include name="Test003_CheckRedBox"/>
+          <include name="L"/>
+          <include name="Test008_popup_launch_Error_Test"/>
+        </methods>
+      </class> <!-- AllTestTatoc -->
+    </classes>
+  </test> <!-- BasicTatocTest(failed) -->
+</suite> <!-- Failed suite [Gmail Suite] -->

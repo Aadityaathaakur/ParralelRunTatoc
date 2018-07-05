@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">AdvanceTatocTest</td><td class="numi">6</td><td class="numi">6</td><td class="numi">0</td><td class="numi">0</td><td class="numi">8.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">BasicTatocTest</td><td class="numi">11</td><td class="numi">11</td><td class="numi">0</td><td class="numi">0</td><td class="numi">5.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">17</td><td class="numi">17</td><td class="numi">0</td><td class="numi">0</td><td class="numi">13.6 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">AdvanceTatocTest &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="6">AllTestAdvanceTatoc</td><td><a href="#m1"><b>test001_Browser_Launch</b>  </a></td><td class="numi">1</td><td>1530793200678</td><td class="numi">2471</td></tr><tr class="passedodd"><td><a href="#m2"><b>test002_AvanceCource</b>  </a></td><td class="numi">1</td><td>1530793203150</td><td class="numi">134</td></tr><tr class="passedodd"><td><a href="#m3"><b>test003_menu_items</b>  </a></td><td class="numi">1</td><td>1530793203285</td><td class="numi">181</td></tr><tr class="passedodd"><td><a href="#m4"><b>test004_database_entry</b>  </a></td><td class="numi">1</td><td>1530793203468</td><td class="numi">1726</td></tr><tr class="passedodd"><td><a href="#m5"><b>test005_rest_Service</b>  </a></td><td class="numi">1</td><td>1530793205195</td><td class="numi">1247</td></tr><tr class="passedodd"><td><a href="#m6"><b>test006_fileHandling</b>  </a></td><td class="numi">1</td><td>1530793206444</td><td class="numi">2332</td></tr>
+<tr><th colspan="4">BasicTatocTest &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="11">AllTestTatoc</td><td><a href="#m7"><b>Test001_Launch_Browser</b>  </a></td><td class="numi">1</td><td>1530793208863</td><td class="numi">2255</td></tr><tr class="passedodd"><td><a href="#m8"><b>Test002_BasicBlock</b>  </a></td><td class="numi">1</td><td>1530793211119</td><td class="numi">129</td></tr><tr class="passedodd"><td><a href="#m9"><b>Test003_CheckRedBox</b>  </a></td><td class="numi">1</td><td>1530793211249</td><td class="numi">132</td></tr><tr class="passedodd"><td><a href="#m10"><b>Test004_check_For_Green_Box</b>  </a></td><td class="numi">1</td><td>1530793211382</td><td class="numi">225</td></tr><tr class="passedodd"><td><a href="#m11"><b>Test005_Frame_Dungeon_Test</b>  </a></td><td class="numi">1</td><td>1530793211608</td><td class="numi">282</td></tr><tr class="passedodd"><td><a href="#m12"><b>Test006_Frame_Dungeon_Pass</b>  </a></td><td class="numi">1</td><td>1530793211891</td><td class="numi">837</td></tr><tr class="passedodd"><td><a href="#m13"><b>Test007_Drag_And_Drop</b>  </a></td><td class="numi">1</td><td>1530793212729</td><td class="numi">283</td></tr><tr class="passedodd"><td><a href="#m14"><b>Test008_popup_launch_Error_Test</b>  </a></td><td class="numi">1</td><td>1530793213013</td><td class="numi">128</td></tr><tr class="passedodd"><td><a href="#m15"><b>Test009_Launch_popUp_Menu</b>  </a></td><td class="numi">1</td><td>1530793213141</td><td class="numi">499</td></tr><tr class="passedodd"><td><a href="#m16"><b>Test010_proceed_without_adding_cookie</b>  </a></td><td class="numi">1</td><td>1530793213641</td><td class="numi">132</td></tr><tr class="passedodd"><td><a href="#m17"><b>Test011_Cookie_Handling</b>  </a></td><td class="numi">1</td><td>1530793213773</td><td class="numi">278</td></tr>
+</table>
+<h1>AdvanceTatocTest</h1>
+<h2 id="m1">AllTestAdvanceTatoc:test004_database_entry</h2>
+<div style="padding-left:3em">
+Application Lauched successfully | <br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">AllTestAdvanceTatoc:test005_rest_Service</h2>
+<div style="padding-left:3em">
+Application Lauched successfully | <br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">AllTestAdvanceTatoc:test003_menu_items</h2>
+<div style="padding-left:3em">
+Application Lauched successfully | <br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">AllTestAdvanceTatoc:test002_AvanceCource</h2>
+<div style="padding-left:3em">
+Application Lauched successfully | <br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">AllTestAdvanceTatoc:test001_Browser_Launch</h2>
+<div style="padding-left:3em">
+Application Lauched successfully | <br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">AllTestAdvanceTatoc:test006_fileHandling</h2>
+<div style="padding-left:3em">
+Application Lauched successfully | <br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>BasicTatocTest</h1>
+<h2 id="m7">AllTestTatoc:Test001_Launch_Browser</h2>
+<div style="padding-left:3em">
+Application Lauched successfully | <br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">AllTestTatoc:Test004_check_For_Green_Box</h2>
+<div style="padding-left:3em">
+Application Lauched successfully | <br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">AllTestTatoc:Test009_Launch_popUp_Menu</h2>
+<div style="padding-left:3em">
+Application Lauched successfully | <br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">AllTestTatoc:Test011_Cookie_Handling</h2>
+<div style="padding-left:3em">
+Application Lauched successfully | <br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">AllTestTatoc:Test006_Frame_Dungeon_Pass</h2>
+<div style="padding-left:3em">
+Application Lauched successfully | <br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">AllTestTatoc:Test005_Frame_Dungeon_Test</h2>
+<div style="padding-left:3em">
+Application Lauched successfully | <br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">AllTestTatoc:Test010_proceed_without_adding_cookie</h2>
+<div style="padding-left:3em">
+Application Lauched successfully | <br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">AllTestTatoc:Test008_popup_launch_Error_Test</h2>
+<div style="padding-left:3em">
+Application Lauched successfully | <br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">AllTestTatoc:Test007_Drag_And_Drop</h2>
+<div style="padding-left:3em">
+Application Lauched successfully | <br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">AllTestTatoc:Test002_BasicBlock</h2>
+<div style="padding-left:3em">
+Application Lauched successfully | <br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">AllTestTatoc:Test003_CheckRedBox</h2>
+<div style="padding-left:3em">
+Application Lauched successfully | <br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

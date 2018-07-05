@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="17" passed="17">
+  <reporter-output>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+    <line>
+      <![CDATA[Application Lauched successfully | ]]>
+    </line>
+  </reporter-output>
+  <suite name="Gmail Suite" duration-ms="13550" started-at="2018-07-05T12:20:00Z" finished-at="2018-07-05T12:20:14Z">
+    <groups>
+    </groups>
+    <test name="AdvanceTatocTest" duration-ms="8187" started-at="2018-07-05T12:20:00Z" finished-at="2018-07-05T12:20:08Z">
+      <class name="AllTestAdvanceTatoc">
+        <test-method status="PASS" signature="test001_Browser_Launch()[pri:0, instance:AllTestAdvanceTatoc@482f8f11]" name="test001_Browser_Launch" duration-ms="2471" started-at="2018-07-05T17:50:00Z" finished-at="2018-07-05T17:50:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test001_Browser_Launch -->
+        <test-method status="PASS" signature="test002_AvanceCource()[pri:0, instance:AllTestAdvanceTatoc@482f8f11]" name="test002_AvanceCource" duration-ms="134" started-at="2018-07-05T17:50:03Z" finished-at="2018-07-05T17:50:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test002_AvanceCource -->
+        <test-method status="PASS" signature="test003_menu_items()[pri:0, instance:AllTestAdvanceTatoc@482f8f11]" name="test003_menu_items" duration-ms="181" started-at="2018-07-05T17:50:03Z" finished-at="2018-07-05T17:50:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test003_menu_items -->
+        <test-method status="PASS" signature="test004_database_entry()[pri:0, instance:AllTestAdvanceTatoc@482f8f11]" name="test004_database_entry" duration-ms="1726" started-at="2018-07-05T17:50:03Z" finished-at="2018-07-05T17:50:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test004_database_entry -->
+        <test-method status="PASS" signature="test005_rest_Service()[pri:0, instance:AllTestAdvanceTatoc@482f8f11]" name="test005_rest_Service" duration-ms="1247" started-at="2018-07-05T17:50:05Z" finished-at="2018-07-05T17:50:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test005_rest_Service -->
+        <test-method status="PASS" signature="test006_fileHandling()[pri:0, instance:AllTestAdvanceTatoc@482f8f11]" name="test006_fileHandling" duration-ms="2332" started-at="2018-07-05T17:50:06Z" finished-at="2018-07-05T17:50:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test006_fileHandling -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:AllTestAdvanceTatoc@482f8f11]" name="closebrowser" is-config="true" duration-ms="72" started-at="2018-07-05T17:50:08Z" finished-at="2018-07-05T17:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- AllTestAdvanceTatoc -->
+    </test> <!-- AdvanceTatocTest -->
+    <test name="BasicTatocTest" duration-ms="5351" started-at="2018-07-05T12:20:08Z" finished-at="2018-07-05T12:20:14Z">
+      <class name="AllTestTatoc">
+        <test-method status="PASS" signature="Test001_Launch_Browser()[pri:0, instance:AllTestTatoc@6a41eaa2]" name="Test001_Launch_Browser" duration-ms="2255" started-at="2018-07-05T17:50:08Z" finished-at="2018-07-05T17:50:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test001_Launch_Browser -->
+        <test-method status="PASS" signature="L()[pri:0, instance:AllTestTatoc@6a41eaa2]" name="L" is-config="true" duration-ms="0" started-at="2018-07-05T17:50:08Z" finished-at="2018-07-05T17:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- L -->
+        <test-method status="PASS" signature="Test002_BasicBlock()[pri:0, instance:AllTestTatoc@6a41eaa2]" name="Test002_BasicBlock" duration-ms="129" started-at="2018-07-05T17:50:11Z" finished-at="2018-07-05T17:50:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test002_BasicBlock -->
+        <test-method status="PASS" signature="Test003_CheckRedBox()[pri:0, instance:AllTestTatoc@6a41eaa2]" name="Test003_CheckRedBox" duration-ms="132" started-at="2018-07-05T17:50:11Z" finished-at="2018-07-05T17:50:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test003_CheckRedBox -->
+        <test-method status="PASS" signature="Test004_check_For_Green_Box()[pri:0, instance:AllTestTatoc@6a41eaa2]" name="Test004_check_For_Green_Box" duration-ms="225" started-at="2018-07-05T17:50:11Z" finished-at="2018-07-05T17:50:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test004_check_For_Green_Box -->
+        <test-method status="PASS" signature="Test005_Frame_Dungeon_Test()[pri:0, instance:AllTestTatoc@6a41eaa2]" name="Test005_Frame_Dungeon_Test" duration-ms="282" started-at="2018-07-05T17:50:11Z" finished-at="2018-07-05T17:50:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test005_Frame_Dungeon_Test -->
+        <test-method status="PASS" signature="Test006_Frame_Dungeon_Pass()[pri:0, instance:AllTestTatoc@6a41eaa2]" name="Test006_Frame_Dungeon_Pass" duration-ms="837" started-at="2018-07-05T17:50:11Z" finished-at="2018-07-05T17:50:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test006_Frame_Dungeon_Pass -->
+        <test-method status="PASS" signature="Test007_Drag_And_Drop()[pri:0, instance:AllTestTatoc@6a41eaa2]" name="Test007_Drag_And_Drop" duration-ms="283" started-at="2018-07-05T17:50:12Z" finished-at="2018-07-05T17:50:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test007_Drag_And_Drop -->
+        <test-method status="PASS" signature="Test008_popup_launch_Error_Test()[pri:0, instance:AllTestTatoc@6a41eaa2]" name="Test008_popup_launch_Error_Test" duration-ms="128" started-at="2018-07-05T17:50:13Z" finished-at="2018-07-05T17:50:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test008_popup_launch_Error_Test -->
+        <test-method status="PASS" signature="Test009_Launch_popUp_Menu()[pri:0, instance:AllTestTatoc@6a41eaa2]" name="Test009_Launch_popUp_Menu" duration-ms="499" started-at="2018-07-05T17:50:13Z" finished-at="2018-07-05T17:50:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test009_Launch_popUp_Menu -->
+        <test-method status="PASS" signature="Test010_proceed_without_adding_cookie()[pri:0, instance:AllTestTatoc@6a41eaa2]" name="Test010_proceed_without_adding_cookie" duration-ms="132" started-at="2018-07-05T17:50:13Z" finished-at="2018-07-05T17:50:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test010_proceed_without_adding_cookie -->
+        <test-method status="PASS" signature="Test011_Cookie_Handling()[pri:0, instance:AllTestTatoc@6a41eaa2]" name="Test011_Cookie_Handling" duration-ms="278" started-at="2018-07-05T17:50:13Z" finished-at="2018-07-05T17:50:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Lauched successfully | ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test011_Cookie_Handling -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:AllTestTatoc@6a41eaa2]" name="closebrowser" is-config="true" duration-ms="161" started-at="2018-07-05T17:50:14Z" finished-at="2018-07-05T17:50:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- AllTestTatoc -->
+    </test> <!-- BasicTatocTest -->
+  </suite> <!-- Gmail Suite -->
+</testng-results>
